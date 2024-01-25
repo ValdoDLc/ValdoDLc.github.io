@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="login.js"></script>
+    <script src="ValidadorEmail.js"></script>
     <title>Iniciar Sesión</title>
     <style>
         body {
@@ -69,7 +70,7 @@
                 <label for="contrasena">Contraseña:</label>
                 <input type="password" id="password" name="contrasena" required>
             </div>
-            <button type="submit">Iniciar Sesión</button>
+            <button value="Validate" onclick="return validateEmail()">Iniciar Sesión</button>
         </form>
     </div>
 </body>
